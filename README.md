@@ -24,12 +24,11 @@ Advantages:
 •	The system can be expanded later with customer details, tables, payment modes, or database support.
 
 IMPLEMENTATION 
-import java.util.Scanner;
 
-public class RestaurantSystem {
+    import java.util.Scanner;
+    public class RestaurantSystem {
 
     static final double TAX_RATE = 0.05;
-
     static String[] foodItems = {
         "Burger", "Pizza", "Pasta",
         "French Fries", "Soft Drink"
